@@ -1,0 +1,86 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather:wght@700&family=Roboto:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lumanosimo&family=Merriweather:wght@700&family=Roboto:wght@300&family=Tektur&display=swap');
+
+
+html,body {
+  height: 100%;
+  width: 100%;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Tektur', cursive;
+  background-color: black;
+}
+
+.button{
+  padding: 20px;
+  width: 147px;
+  margin: -5px 0px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+button.button{
+  background-color: #690ba8;
+  color: white;
+  font-family: 'Tektur', cursive;
+  font-size: 20px;
+}
+
+#reddish{
+    padding: 28px;
+    height: 73px;
+    width: 127px;
+    margin: -5px -5px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer; 
+    background-color: #ad0570;
+    font-size: 20px;
+}
+
+#red{
+  padding: 30px;
+  height: 81px;
+  width: 147px;
+  margin: -5px 0px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #ad0570;
+}
+
+#purple{
+    padding: 20px;
+    width: 63px;
+    height: 71px;
+    margin: -5px 0px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #690ba8;
+}
+
+.button purple.button{
+  button.button{
+  background-color: #690ba8;
+  color: white;
+  font-family: 'Tektur', cursive;
+  font-size: 20px;
+}
+}
+
+.row{
+  margin: 10pt 0;
+}
+
+.row input{
+  width: 389px;
+  height: 40px;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
